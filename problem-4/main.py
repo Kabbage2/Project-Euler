@@ -6,3 +6,13 @@ each product checks for palindrome if true break and print number
 for the palindrome convert number into string, then reverse string and compare just using ==
 
 """
+
+def is_palindrome(s):
+    original_string = str(s)
+    reversed_string = original_string[::-1]
+    if original_string == reversed_string:
+        return True
+    else:
+        return False
+
+    
